@@ -1,0 +1,114 @@
+[
+    {
+      "marca": "gm-chevrolet",
+      "modelo": "corsa",
+      "quilometragem": ["10000", "100000"],
+      "ano": ["2006", "2014"],
+      "preco": ["15000", "20000"],
+      "descricao": ""
+    },
+    {
+      "marca": "citroen",
+      "modelo": "c4",
+      "quilometragem": ["10000", "100000"],
+      "ano": ["2008", "2013"],
+      "preco": ["15000", "24000"],
+      "descricao": "hatch"
+    },
+    {
+      "marca": "citroen",
+      "modelo": "c4",
+      "quilometragem": ["10000", "100000"],
+      "ano": ["2008", "2013"],
+      "preco": ["15000", "24000"],
+      "descricao": "vtr"
+    },
+    {
+      "marca": "fiat",
+      "modelo": "punto",
+      "quilometragem": ["10000", "100000"],
+      "ano": ["2006", "2020"],
+      "preco": ["10000", "25000"],
+      "descricao": ""
+    },
+    {
+      "marca": "ford",
+      "modelo": "fiesta",
+      "quilometragem": ["10000", "100000"],
+      "ano": ["2006", "2020"],
+      "preco": ["15000", "20000"],
+      "descricao": "1.6"
+    },
+    {
+      "marca": "honda",
+      "modelo": "fit",
+      "quilometragem": ["10000", "120000"],
+      "ano": ["2006", "2011"],
+      "preco": ["10000", "25000"],
+      "descricao": ""
+    },
+    {
+      "marca": "nissan",
+      "modelo": "livina",
+      "quilometragem": ["10000", "100000"],
+      "ano": ["2008", "2020"],
+      "preco": ["10000", "24000"],
+      "descricao": ""
+    },
+    {
+      "marca": "nissan",
+      "modelo": "tiida",
+      "quilometragem": ["10000", "100000"],
+      "ano": ["2008", "2020"],
+      "preco": ["10000", "24000"],
+      "descricao": ""
+    },
+    {
+      "marca": "renault",
+      "modelo": "logan",
+      "quilometragem": ["10000", "100000"],
+      "ano": ["2008", "2020"],
+      "preco": ["10000", "23000"],
+      "descricao": "1.6"
+    },
+    {
+      "marca": "renault",
+      "modelo": "sandero",
+      "quilometragem": ["10000", "100000"],
+      "ano": ["2008", "2020"],
+      "preco": ["10000", "23000"],
+      "descricao": "1.6"
+    },
+    {
+      "marca": "toyota",
+      "modelo": "corolla",
+      "quilometragem": ["0", "200000"],
+      "ano": ["2004", "2011"],
+      "preco": ["10000", "23000"],
+      "descricao": ""
+    },
+    {
+      "marca": "vw-volkswagen",
+      "modelo": "fox",
+      "quilometragem": ["10000", "100000"],
+      "ano": ["2008", "2020"],
+      "preco": ["10000", "24000"],
+      "descricao": "1.6"
+    },
+    {
+      "marca": "vw-volkswagen",
+      "modelo": "gol",
+      "quilometragem": ["10000", "100000"],
+      "ano": ["2012", "2020"],
+      "preco": ["10000", "24000"],
+      "descricao": "1.6"
+    },
+    {
+      "marca": "vw-volkswagen",
+      "modelo": "polo",
+      "quilometragem": ["10000", "100000"],
+      "ano": ["2008", "2020"],
+      "preco": ["10000", "24000"],
+      "descricao": ""
+    }
+  ]
