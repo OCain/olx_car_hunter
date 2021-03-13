@@ -2,6 +2,7 @@ import csv
 from get_results import get_page_results
 
 def save_results():
+    print("Carregando resultados...")
     car_list = get_page_results()
     keys = car_list[0].keys()
     file_name = 'olx_cars.csv'

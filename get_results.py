@@ -22,25 +22,28 @@ def get_page_results():
 
 def get_html_page(data):
     headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36'}
-    page_request = request(data["link"], headers=headers)
-    document = urlopen(page_request)
-    html_page = soup(document.read(), "html.parser")
-    document.close()
-    return html_page
+    try:
+        page_request = request(data["link"], headers=headers)
+        document = urlopen(page_request)
+        html_page = soup(document.read(), "html.parser")
+        document.close()
+        return html_page
+    except:
+        print("Falha de conexão.")
 
 def get_car_li_elements(data):
     page = get_html_page(data)
     car_ul = page.findAll("div", {"class": UL_MAIN_CLASS})
     car_li_elements = []
-    nome_carro = data["manufacterer"] + " " + data["model"]
+    descricao_carro = data["manufacterer"] + " " + data["model"] + " " + data["description"] 
     try:
-        print(f"Buscando anúncios de {nome_carro}...")
+        print(f"Buscando anúncios de {descricao_carro}...")
         li_elements = get_li_elements(car_ul)
         for li in li_elements:
             if(li.a):
                 car_li_elements.append(li)
     except:
-        print(f"Não foram encontrados anúncios para {nome_carro}.")
+        print(f"Não foram encontrados anúncios para {descricao_carro}.")
     return car_li_elements
 
 def get_li_elements(car_ul):
